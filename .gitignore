@@ -18,4 +18,4 @@ magis/algorithms/cephes/
 magis/legacy/
 *.so
 *.c
-
+*.egg-info/

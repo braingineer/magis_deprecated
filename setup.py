@@ -10,7 +10,7 @@ setup(
     name='magis',
     version='0.1dev',
     packages=['magis',],
-    install_requires=['cython==0.17'],
+    install_requires=['cython==0.25'],
     license='MIT',
     cmdclass={'build_ext': build_ext},
     ext_modules = cythonize(extensions),

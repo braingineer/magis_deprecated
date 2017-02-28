@@ -1,9 +1,0 @@
-setup.py
-magis/__init__.py
-magis.egg-info/PKG-INFO
-magis.egg-info/SOURCES.txt
-magis.egg-info/dependency_links.txt
-magis.egg-info/requires.txt
-magis.egg-info/top_level.txt
-magis/models/abstract/boundaries.c
-magis/utils/cyutils.c
