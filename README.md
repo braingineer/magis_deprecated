@@ -1,5 +1,6 @@
 # Models and Algorithms for Grounded, Interactive Semantics
 
+original post: [mcmahan.io/lux](http://mcmahan.io/lux)
 
 Since the overhaul:
 
