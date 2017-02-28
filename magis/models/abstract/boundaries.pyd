@@ -1,0 +1,21 @@
+
+
+cdef class Bound:
+    cdef double rate
+    cdef double shape
+    cdef double origin
+    cpdef phi(self, double x)
+    
+cdef class LeftBound(Bound)
+
+cdef class RightBound(Bound)
+
+cdef class DualBoundaries:
+    cdef Bound left
+    cdef Bound right
+    cdef double left_origin, right_origin
+    cdef bint vectorized
+    
+    
+cdef class CircularBoundaries(DualBoundaries):
+    cdef bint adjust_coords

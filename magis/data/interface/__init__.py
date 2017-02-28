@@ -1,0 +1,1 @@
+from .xkcdcolor import xkcdcolor

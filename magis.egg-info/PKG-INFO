@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: magis
+Version: 0.1.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: # Models and Algorithms for Grounded, Interactive Semantics
+        
+        
+        Since the overhaul:
+        
+        1. new version of lux; not published
+        2. dataset interfaces
+        
+Platform: UNKNOWN

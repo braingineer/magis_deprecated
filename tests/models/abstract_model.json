@@ -1,0 +1,9 @@
+{
+    "components": [
+        {
+            "name": "TestComponent",
+            "parameters": []
+        }
+    ],
+    "name": "TestModel"
+}

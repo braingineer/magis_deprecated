@@ -1,0 +1,14 @@
+%%cython 
+
+cdef class BoundingBoxV2:
+    cdef float x0, x1, y0, y1
+
+    cpdef bint intersects(self, BoundingBoxV2 other)
+
+
+cdef list _ngram(list words, int n=2)
+cpdef list ngrams(list words, int start=1, int stop=10)    
+cpdef list unigrams(list words)
+cpdef list bigrams(list words)
+cpdef list trigrams(list words)
+
