@@ -19,7 +19,7 @@ lux = magis.models.Lux.pretrained()
 #### lux.components has all of the individual color models
 #### there's no shortcut for the names right now because I just overhauled and hadn't needed it yet
 
-color_names = {c.name:c for c in lux.componenets}
+color_names = {c.name:c for c in lux.components}
 
 print(list(color_names.keys()))
 
